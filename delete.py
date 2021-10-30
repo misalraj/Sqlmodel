@@ -15,3 +15,5 @@ with Session(engine) as session:
 
     session.delete(student)  #Delete data
     session.commit()
+
+
