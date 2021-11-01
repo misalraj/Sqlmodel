@@ -17,6 +17,3 @@ with Session(engine) as session:
     session.commit()
     session.refresh(student)
     print("updated result", student)
-
-
-
