@@ -10,6 +10,7 @@ class Student(SQLModel, table=True):
     email: str
     # dob: 
 
+
 sqlite_url = "sqlite:///school.db"
 engine = create_engine(sqlite_url)
 SQLModel.metadata.create_all(engine)
