@@ -6,4 +6,5 @@ SQLModel is a library for interacting with SQL databases from Python code.
 
 ```python
 pip install sqlmodel
+
 ```
